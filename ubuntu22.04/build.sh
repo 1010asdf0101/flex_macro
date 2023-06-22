@@ -1,4 +1,5 @@
 #!bin/bash/
+pip install -r ../requirements.txt
 pyinstaller -F leave.py
 pyinstaller -F on.py
 mv ./dist/leave ~/leave

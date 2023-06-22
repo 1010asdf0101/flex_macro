@@ -23,7 +23,7 @@ options.add_argument('--incognito') #inprivate mode
 # width of window size should be larger than certain value for access time_btn
 options.add_argument('--window-size=1600,1080')
 options.add_experimental_option('detach', True) # terminal chorme when process is terminated
-options.add_experimental_option("excludeSwitches", ['enable-logging']) # 불필요한 메시지 제거
+options.add_experimental_option("excludeSwitches", ['enable-logging'])
 
 service = Service(ChromeDriverManager().install())
 
